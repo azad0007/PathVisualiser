@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+    android:id="@+id/textView11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ALGORITHMS"
+    android:textColor="#050505"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DFS: DOESN'T GUARANTEE SHORTEST DISTANCE NOR THE SHORTEST PATH"
+        android:textAllCaps="true"
+        android:textColor="#050505"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BFS: GUARANTEE THE SHORTEST PATH BUT NOT THE SHORTEST TIME"
+        android:textAllCaps="true"
+        android:textColor="#050505"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIJKSTRA: GUARANTEE THE SHORTEST TIME BUT NOT THE SHORTEST PATH"
+        android:textColor="#050505"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MANY MORE TO COME...."
+        android:textColor="#050505"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALGORITHM CAN BE SELECTED FROM THE TOP-DOWN MENU"
+        android:textColor="#050505"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <ImageView
+        android:src="@drawable/ic_baseline_arrow_forward_24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60dp"
+        android:onClick="onclick"
+        />
+
+</LinearLayout>

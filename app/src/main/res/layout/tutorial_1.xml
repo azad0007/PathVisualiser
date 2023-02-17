@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/ic_startgridcell" />
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="START POSITION"
+            android:textAllCaps="true"
+            android:textColor="#090909"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="65dp"
+        android:layout_marginLeft="20dp"
+
+    />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        >
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/ic_endgridcell" />
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="DESTINATION POSITION"
+            android:textAllCaps="true"
+            android:textColor="#090909"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        >
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/ic_bombcell" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="PICKUP LOCATION"
+            android:textAllCaps="true"
+            android:textColor="#090909"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="ALL ARE DRAGGABLE TO DIFF POSITION"
+        android:textAllCaps="true"
+        android:textColor="#0B0B0B"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+         />
+
+    <ImageView
+        android:src="@drawable/ic_baseline_arrow_forward_24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:onClick="onclick"
+         />
+
+</LinearLayout>

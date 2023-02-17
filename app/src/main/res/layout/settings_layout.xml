@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    public static int WeightValue = 8 ;-->
+<!--    public static int turnCost = 2 ;-->
+<!--    public static int moveCost = 1 ;-->
+<!--    public static int WaitingTimeSearch = 250 ;-->
+<!--    public static int WaitingTimeBike = 150-->
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Searching Speed"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        />
+
+    <SeekBar
+        android:id="@+id/ID_seekbar_searchspeed"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Bike Speed"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            />
+
+        <SeekBar
+            android:id="@+id/ID_seekbar_bikespeed"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="140dp"
+            android:layout_marginTop="82dp"
+            android:layout_height="wrap_content"
+            android:text="Turn Cost"
+            android:textAllCaps="true"
+            android:textColor="@color/black" />
+
+        <NumberPicker
+            android:id="@+id/ID_turn_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="140dp"
+            android:layout_marginTop="82dp"
+            android:layout_height="wrap_content"
+            android:text="Moving Cost"
+            android:textAllCaps="true"
+            android:textColor="@color/black" />
+
+        <NumberPicker
+            android:id="@+id/ID_move_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="140dp"
+            android:layout_marginTop="82dp"
+            android:layout_height="wrap_content"
+            android:text="Traffic Cost"
+            android:textAllCaps="true"
+            android:textColor="@color/black" />
+
+        <NumberPicker
+            android:id="@+id/ID_traffic_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
